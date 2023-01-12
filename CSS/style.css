@@ -1,0 +1,27 @@
+/* universal selector */
+*{
+    margin: 10px;
+    background-color: lightblue;
+}
+/* Tag Selector */
+p{
+    color: purple;
+}
+
+/* class Selector */
+.para{
+    color: blue;
+}
+
+/* Id Seletor */
+#heading{
+    color: darkblue;
+}
+
+.para, #heading{
+    color: darkslateblue;
+}
+
+p.para{
+    color: green;
+}
