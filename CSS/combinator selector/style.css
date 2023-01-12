@@ -1,0 +1,73 @@
+/* decendent selector */
+/* div .para{
+    color: red;
+}
+
+.container #para-1{
+    color: blue;
+}
+
+ul li{
+    background-color: pink;
+} */
+
+/* child selector */
+/* span > p{
+    color: palevioletred;
+} */
+
+/* adjacent selector */
+/* div + p{
+    color: red;
+}
+*/
+
+/* general sibiling selector */
+
+/* div~p{
+    color: orangered;
+} */
+
+/* psuedo-class selector */
+.btn{
+    background-color: orange;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+/* unvisited links */
+a:link{
+    color: red;
+}
+
+/* visited */
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color: green;
+}
+
+.link:active{
+    color: orangered;
+}
+
+/* psuedo element selector */
+p::first-line{
+    color: red;
+}
+p::first-letter{
+    color: green;
+}
+p::before{
+    content: "-----text-----";
+}
+p::after{
+    content: "-----text-----"
+}
